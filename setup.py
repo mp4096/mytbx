@@ -9,4 +9,4 @@ setup(
     url="https://github.com/mp4096/mytbx",
     packages=["mytbx"],
     license="MIT",
-    )
+)
