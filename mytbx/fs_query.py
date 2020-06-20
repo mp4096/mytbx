@@ -18,7 +18,7 @@ class _FsQueryAbc(ABC):
         self._dirs = dirs
         self._files = files
 
-    def _check(self, path: Path):
+    def _check(self, path: Path) -> bool:
         if not self._dirs and path.is_dir():
             return False
         if not self._files and path.is_file():
