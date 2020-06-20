@@ -25,8 +25,7 @@ class _FsQueryAbc(ABC):
             return False
         if self._patterns:
             return any(path.match(g) for g in self._patterns)
-        else:
-            return True
+        return True
 
 
 class FsQuery(_FsQueryAbc):
