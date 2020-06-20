@@ -1,5 +1,4 @@
 from abc import ABC
-import fnmatch
 import os
 from pathlib import Path
 from typing import Generator, List, Optional, Union
